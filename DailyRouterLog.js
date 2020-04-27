@@ -2,8 +2,8 @@ let date = new Date();
 let monthIndex = 0;
 let monthNumber = 0;
 let dayNumber = 0;
-const FILE = '16tUpNQbNftn348-41NFdlZw4h5ty1TFkBqroVbtDaJI'; //File ID of the file to be copied - PLEASE DO NOT TOUCH THIS FILE - 16tUpNQbNftn348-41NFdlZw4h5ty1TFkBqroVbtDaJI
-const FOLDER = '1FNgoD1XIsw1jeYkuXPEJezO8ZLarwBD9'; //Folder ID of the base Daily Shift Router Logs folder
+const FILE = 'YOUR_FILE_ID_GOES_HERE'; //File ID of the file to be copied
+const FOLDER = 'YOUR_STARTING_FOLDER_ID_GOES_HERE'; //Folder ID of the base Daily Shift Router Logs folder
 const TWO_DIGIT_YEAR = date.getFullYear().toString().substr(-2);
 
 function doGet(){
